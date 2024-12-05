@@ -1,0 +1,38 @@
+
+:root{
+    --font: "Heebo", sans-serif;
+    --cor: #F4F5F9;
+}
+*{
+    font-family: var(--font);
+    font-weight: 500;
+    color: var(--cor)
+}
+
+
+a{
+    text-decoration: none;
+    
+}
+
+.banner{
+    background: var(--cor);
+    min-height: 60vh;
+}
+
+.background{
+    background: var(--cor);
+}
+
+.w-33{
+    width: 33%;
+}
+
+.card{
+    border: none;
+    
+    
+}
+.card img{
+    border-radius: 0;
+}
